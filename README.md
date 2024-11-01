@@ -17,6 +17,7 @@ Feladat rövid leírása
 -
 
 # Problémamegoldó szeminárium
+Gyémántok
 
 
 # Készítette
