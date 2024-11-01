@@ -18,7 +18,7 @@ Nemes Tihamér versenyfeladat
 Feladat leírása: (https://mester.inf.elte.hu:8181/faces/leiras.xhtml?jfwid=99e6a65c6c28a998de8377a8e05d:21) 
 
 ### Problémamegoldó szeminárium OKTV 
-Gyémántok
+Gyémántokk
 Feladat leírása: (https://mester.inf.elte.hu:8181/faces/leiras.xhtml?jfwid=99e6a65c6c28a998de8377a8e05d:10)
 
 
