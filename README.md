@@ -1,7 +1,7 @@
 # Algoritmusok és Adatszerkezetek I. gyakorlat
 
 ## Elérhető feladatok:
-### [1. feladat - Missing number](https://github.com/DeakEva/Algoritmusok/blob/main/index.html)
+### [1. feladat - Missing number](https://github.com/DeakEva/Algoritmusok/blob/main/teszt.py)
 Feladat rövid leírása
 
 
