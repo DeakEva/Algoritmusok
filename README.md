@@ -1,4 +1,4 @@
-# Algoritmusok és Adatszerkezetek I. gyakorlat
+# Algoritmusok és Adatszerkezetek I. - Gyakorlat
 
 ## Elérhető feladatok:
 ### [1. feladat - Missing number](https://github.com/DeakEva/Algoritmusok/raw/main/teszt.py)
@@ -11,6 +11,12 @@ Feladat rövid leírása
 - forrás:
 - probléma:
 - megoldás:
+
+# Algotimusok és Adatszerkezetek I. - Kollokvium feladat
+
+-
+
+# Problémamegoldó szeminárium
 
 
 # Készítette
