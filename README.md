@@ -1,9 +1,9 @@
 # Algoritmusok és Adatszerkezetek I. - Gyakorlat
 
 ## Elérhető feladatok:
-### [1. feladat - Missing number](https://github.com/DeakEva/Algoritmusok/raw/main/teszt.py)
+### [1. feladat - Missing number](https://github.com/DeakEva/Algoritmusok/raw/main/MissingNumber.py)
 **Feladat leírása:**<br>
-Adott két szám tömbje, keressük meg, hogy a második tömb mely elemei hiányoznak az első tömbből.
+Adott két szám listája, keressük meg, hogy a második lista mely elemei hiányoznak az első listából.
 Ha egy szám többször előfordul a listákban, akkor gondoskodni kell arról, hogy a szám mindkét listában legyen. Ha ez nem így van, akkor is hiányzó szám.
 
 **Kikötések**
@@ -22,17 +22,18 @@ Bemenet:
 - **int[m]**: egész számok, ahol az *"m"* a lista méretét jelöli
 
 Kimenet:
-- **int[]**: egész számomat tartalmazó tömb
+- **int[]**: egész számomat tartalmazó lista
 
 **Példa bement:**
-- **arr[n]**: n darab szóközzel elválasztott, hiányzó számokat tartalmazó tömb<br>arr = [7,2,5,3,5,3]
-- **brr[m]**: m darab szóközzel elválasztott, eredeti számokat tartalmazó tömb<br>brr = [7,2,5,4,6,3,5,3]
+- **arr[n]**: n darab szóközzel elválasztott, hiányzó számokat tartalmazó lista<br>arr = [7,2,5,3,5,3]
+- **brr[m]**: m darab szóközzel elválasztott, eredeti számokat tartalmazó lista<br>brr = [7,2,5,4,6,3,5,3]
 
 **Elvárt kimenet:**<br>
-- [4,6] számo(ka)t tartalmazó tömb
+- [4,6] számo(ka)t tartalmazó lista
 
+**Teszteredmény(ek):** [link](https://github.com/DeakEva/Algoritmusok/raw/main/MissingNumberTest.png)
 
-### [2. feladat - Power sum](https://github.com/)
+### [2. feladat - Power sum](https://github.com/DeakEva/Algoritmusok/raw/main/PowerSum.py)
 **Feladat leírása:**<br>
 Határozzuk meg, hogy egy adott egész szám hányféleképpen fejezhető ki egyedi, természetes számok **N<sup>p</sup>**-edik hatványainak összegeként
 
@@ -64,7 +65,9 @@ Kimenet:
 - 3
 - Magyarázat: 100 = (10<sup>2</sup>) = (6<sup>2</sup> + 8<sup>2</sup>) = (1<sup>2</sup> + 3<sup>2</sup> +4 <sup>2</sup> +5 <sup>2</sup> +7<sup>2</sup>)
 
-### [3. feladat - Fibonacci sequence](https://github.com/)
+**Teszteredmény(ek):** [link](https://github.com/DeakEva/Algoritmusok/raw/main/ThePowerSumTest.png)
+
+### [3. feladat - Fibonacci sequence](https://github.com/DeakEva/Algoritmusok/raw/main/FibonacciSequence.py)
 **Feladat leírása:**<br>
 Implementáljunk egy módosított **Fibonacci** sorozatot a következőek szerint:<br>
 - Legyen adott t[i] és t[i+1], ahol i ∈ (1, +∞) és t[i+2] a következő szerint számítható ki:
@@ -93,7 +96,9 @@ Kimenet:
 - 5
 - Magyarázat: amennyiben t<sub>1</sub> = 0 és t<sub>2</sub> = 1, akkor a módosított **Fibonacci** sorozat a következő(k) szerint alakul: {0, 1, 1, 2, 5, 27, ...} az N-edik helyen lévő érték, így az **5** lesz
 
-### [4. feladat - Dijkstra](https://github.com/)
+**Teszteredmény(ek):** [link](https://github.com/DeakEva/Algoritmusok/raw/main/FibonacciTest.png)
+
+### [4. feladat - Dijkstra](https://github.com/DeakEva/Algoritmusok/raw/main/Dijkstra.py)
 **Feladat leírása:**<br>
 Legyen adott egy irányítatlan gráf és egy kezdő csomópont. Határozzuk meg a kezdő csomóponttól a gráf összes többi csomópontjáig vezető legrövidebb utak hosszát. Ha egy csomópont nem érhető el, akkor a távolsága legyen -1. A csomópontok számozása 1-től n-ig történik a csomópontok közötti távolságok pedig különböző hosszúak.
 
@@ -137,14 +142,15 @@ Kimenet:
 - **1/S** csúcsponttól a **3**-as csúcspontban a legrövidebb út hossza: **3**
 - **1/S** csúcsponttól a **4**-es csúcspontban a legrövidebb út hossza: **15**
 
+**Teszteredmény(ek):** [link](https://github.com/DeakEva/Algoritmusok/raw/main/DijkstraTest.png)
 
 ### Algoritmusok és Adatszerkezetek I. - Kollokvium feladat 
-Nemes Tihamér versenyfeladat
-Feladat leírása: (https://mester.inf.elte.hu:8181/faces/leiras.xhtml?jfwid=99e6a65c6c28a998de8377a8e05d:21) 
+#### [Nemes Tihamér versenyfeladat - Piac](https://github.com/DeakEva/Algoritmusok/raw/main/Piac.py)
+**Feladat leírása:** [link](https://mester.inf.elte.hu:8181/faces/leiras.xhtml?jfwid=99e6a65c6c28a998de8377a8e05d:21) 
 
-### Problémamegoldó szeminárium OKTV feladat
-Gyémántok
-Feladat leírása: (https://mester.inf.elte.hu:8181/faces/leiras.xhtml?jfwid=99e6a65c6c28a998de8377a8e05d:10)
+### Problémamegoldó szeminárium OKTV feladat (bemutatva)
+#### [Gyémántok](https://github.com/DeakEva/Algoritmusok/raw/main/Gyemant.py)
+**Feladat leírása**: [link](https://mester.inf.elte.hu:8181/faces/leiras.xhtml?jfwid=99e6a65c6c28a998de8377a8e05d:10)
 
 
 # Készítette
