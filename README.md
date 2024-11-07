@@ -64,30 +64,34 @@ Kimenet:
 - 3
 - Magyarázat: 100 = (10<sup>2</sup>) = (6<sup>2</sup> + 8<sup>2</sup>) = (1<sup>2</sup> + 3<sup>2</sup> +4 <sup>2</sup> +5 <sup>2</sup> +7<sup>2</sup>)
 
-###  [3. feladat - Fibonacci sequence]
-Feladat leírása: Fibonacci sorozat
-Valósítson meg módosított Fibonacci sorozatot a következők szerint:
-Adott feltételek [i] és t[i+1] ahol i (1,) kifejezést [i+2]a következőképpen kerül kiszámításra: ti+2=ti+(ti+1)<sup>2</sup>
-Adott három egész szám t1,t2 és n számítsa ki és nyomtassa ki az a n<sup>th</sup> egy módosított Fibonacci szekvencia kifejezését.
-Töltse ki a fibonacciModdified függvényt az alábbi szerkesztőben. Vissza kell adnia az n <sup>th</sup> számot a sorozatban.
-A fibonacciModified a következő paraméterekkel rendelkezik:
-int t1: egész szám
-int t2: egész szám
-int n: a jelentő iteráció
-Visszatér 
-int: a n<sup>th</sup> szám a sorozatban
-Beviteli formátum
-Három szóközzel elválasztott egész szám egyetlen sora, értékei t1 t2 és n
-Korlátozások
-0<=t1,t2<=2
-3<=n<=20
-tn messze meghaladja 64 bit int tartományt>>>>
-Minta bemenet
-0 1 5
-Minta kimenet
-5
+### [3. feladat - Fibonacci sequence](https://github.com/)
+**Feladat leírása:**<br>
+Implementáljunk egy módosított **Fibonacci** sorozatot a következőek szerint:<br>
+- Legyen adott t[i] és t[i+1], ahol i ∈ (1, +∞) és t[i+2] a következő szerint számítható ki:
+t<sub>i+2</sub> = t<sub>i</sub> + (t<sub>i+1</sub>)<sup>2</sup>
 
+**Kikötések**
+- 0 <= t1, t2 <= 2
+- 3 <= n <= 20
+- t<sub>n</sub> lehetséges, hogy 64-bitnél is nagyobb szám lesz
 
+**Függvény működése:**<br>
+Bemenet:
+- **t1**: egész szám
+- **t2**: egész szám
+- **n**: egész szám, iterációk száma
+
+Kimenet:
+- **int**: az **n**-edik szám az iterációban
+
+**Példa bement:**
+- **t1**: 0
+- **t2**: 1
+- **n**: 5
+
+**Elvárt kimenet:**<br>
+- 5
+- Magyarázat: amennyiben t<sub>1</sub> = 0 és t<sub>2</sub> = 1, akkor a módosított **Fibonacci** sorozat a következő(k) szerint alakul: {0, 1, 1, 2, 5, 27, ...} az N-edik helyen lévő érték, így az **5** lesz
 
 ### [4. feladat - Dijkstra]
 Feladat leírása: Adott egy irányíthatatlan gráf és egy kezdő csomópont, határozza meg a kezdő csomóponttól a gráf összes többi csomópontjáig vezető legrövidebb utak hosszát. Ha egy csomópont nem érhető el, a távolsága -1. A csomópont számozása folyamatosan történik 1 és n az élek távolsága vagy hosszúsága változó.
