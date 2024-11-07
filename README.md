@@ -133,9 +133,9 @@ Kimenet:
 
 **Magyarázat:**
 ![Kép](./Dijkstra_sample.png)
-- **1/S** csúcsponttól a **2**-es csúcspontban a legrövidebb út: **24**
-- **1/S** csúcsponttól a **3**-as csúcspontban a legrövidebb út: **3**
-- **1/S** csúcsponttól a **4**-es csúcspontban a legrövidebb út: **15**
+- **1/S** csúcsponttól a **2**-es csúcspontban a legrövidebb út hossza: **24**
+- **1/S** csúcsponttól a **3**-as csúcspontban a legrövidebb út hossza: **3**
+- **1/S** csúcsponttól a **4**-es csúcspontban a legrövidebb út hossza: **15**
 
 
 ### Algoritmusok és Adatszerkezetek I. - Kollokvium feladat 
