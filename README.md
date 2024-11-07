@@ -2,55 +2,67 @@
 
 ## Elérhető feladatok:
 ### [1. feladat - Missing number](https://github.com/DeakEva/Algoritmusok/raw/main/teszt.py)
-Feladat leírása: Hiányzó szám
-Adott két szám tömbje, keresse meg, hogy a második tömb mely elemei hiányoznak az első tömbből.
-Példa: arr = [7,2,5,3,5,3]
-       brr = [7,2,5,4,6,3,5,3]
-Abrr array az eredeti lista. A hiányzó számok [4,6]
+**Feladat leírása:**<br>
+Adott két szám tömbje, keressük meg, hogy a második tömb mely elemei hiányoznak az első tömbből.
 Ha egy szám többször előfordul a listákban, akkor gondoskodni kell arról, hogy a szám mindkét listában legyen. Ha ez nem így van, akkor is hiányzó szám.
-Adja vissza a hiányzó számokat növekvő sorrendben.
-Csak egyszer adjon meg egy hiányzó számot, még akkor is, ha többször hiányzik.
-Az eredeti lista maximális és minimális száma közötti különbség kisebb vagy egyenlő, mint 100.
-A missingNumbs a következő paraméterekkel rendelkezik: 
-int arr[n]: a hiányzó számokat tartalmazó tömb
-int brr[m]: az eredeti számtömb
-Visszatér int[]: az egész számok tömbje
-Beviteli formátum
-Négy beviteli sor lesz:
-n- az első lista mérete.arr
-A következő sor tartalmazza n szóközzel elválasztott egész számokat arr[i]
-m- a másokdi lista mérete.brr
-A következő sor tartalmazza m szóközzel elválasztott egész számokat brr[i]
-Korlátozások
-1<=n, m<=2*10<sup>5</sup>
-n<=ma
-1<=brr[i]<=10<sup>4</sup>
-max(brr)-min(brr)<=100
->>>>>>
+
+**Kikötések**
+- Csak egyszer adjon meg egy hiányzó számot, még akkor is, ha többször hiányzik.
+- Az eredeti lista maximális és minimális száma közötti különbség kisebb vagy egyenlő, mint 100.
+- Hiányzó számok növekvő sorrendben térjenek vissza
+- 1 <= n
+- m <= 2*10<sup>5</sup>
+- n <= ma
+- 1 <= brr[m] <= 10<sup>4</sup>
+- max(brr) - min(brr) <= 100
+
+**Függvény működése:**<br>
+Bemenet:
+- **int[n]**: egész számok, ahol az *"n"* a lista méretét jelöli
+- **int[m]**: egész számok, ahol az *"m"* a lista méretét jelöli
+
+Kimenet:
+- **int[]**: egész számomat tartalmazó tömb
+
+**Példa bement:**
+- **arr[n]**: n darab szóközzel elválasztott, hiányzó számokat tartalmazó tömb<br>arr = [7,2,5,3,5,3]
+- **brr[m]**: m darab szóközzel elválasztott, eredeti számokat tartalmazó tömb<br>brr = [7,2,5,4,6,3,5,3]
+
+**Elvárt kimenet:**<br>
+- [4,6] számo(ka)t tartalmazó tömb
 
 
-###  [2. feladat - Power sum](https://github.com/)
-Feladat leírása: NÉV?
-Keresse meg, hogy az adott egész hány módon X az összegeként fejezhető ki N<sup>th</sup> egyedi, természetes számok hatványai.
-Töltse ki a powerSum függvényt, egy egész számot kell visszaadnia, amely lehetséges kombinációk számát jelenti.
-A poweSum a következő paraméterekkel rendelkezik:
-X: az az egész szám, amelyhez összegezni kell
-N: az egész szám hatványa, amelyre a számokat emeljük
-Beviteli formátum
-Az első sor egy egész számot tartalmaz X
-A második sor egy egész számot tartalmaz N
-Korlátozások
-1<=X<=1000
-2<=N<=10
-Kimeneti formátum
-Egyetlen egész szám kiadása, a lehetséges kombinációk kiszámítása.
-Minta bemenet 0
-10
-2 
-Minta kimement 0
-1
->>>>
+### [2. feladat - Power sum](https://github.com/)
+**Feladat leírása:**<br>
+Határozzuk meg, hogy egy adott egész szám hányféleképpen fejezhető ki egyedi, természetes számok **N<sup>p</sup>**-edik hatványainak összegeként
 
+**Kikötések**
+- 1 <= X <= 1000
+- 2 <= N <= 10
+
+**Függvény működése:**<br>
+Bemenet:
+- **X**: összegszám
+- **N**: hatványkitevő, amire a számokat emelni kell
+
+Kimenet:
+- **int**: az összes lehetséges kombinációt tartalmazó **egész** szám
+
+**1) Példa bement:**
+- **X**: 10
+- **N**: 2
+
+**Elvárt kimenet:**<br>
+- 1
+- Magyarázat: 10 = 1<sup>2</sup> + 3<sup>2</sup>
+
+**2) Példa bement:**
+- **X**: 100
+- **N**: 2
+
+**Elvárt kimenet:**<br>
+- 3
+- Magyarázat: 100 = (10<sup>2</sup>) = (6<sup>2</sup> + 8<sup>2</sup>) = (1<sup>2</sup> + 3<sup>2</sup> +4 <sup>2</sup> +5 <sup>2</sup> +7<sup>2</sup>)
 
 ###  [3. feladat - Fibonacci sequence]
 Feladat leírása: Fibonacci sorozat
