@@ -146,11 +146,15 @@ Kimenet:
 
 ### Algoritmusok és Adatszerkezetek I. - Kollokvium feladat 
 #### [Nemes Tihamér versenyfeladat - Piac](https://github.com/DeakEva/Algoritmusok/raw/main/Piac.py)
-**Feladat leírása:** [link](https://mester.inf.elte.hu:8181/faces/leiras.xhtml?jfwid=99e6a65c6c28a998de8377a8e05d:21) 
+**Feladat leírása:** [link](https://mester.inf.elte.hu:8181/faces/leiras.xhtml?jfwid=99e6a65c6c28a998de8377a8e05d:21)<br>
+
+**Így is megtalálható:** Nemes Tihamér 2. 2016/17 2. forduló
 
 ### Problémamegoldó szeminárium OKTV feladat (bemutatva)
 #### [Gyémántok](https://github.com/DeakEva/Algoritmusok/raw/main/Gyemant.py)
-**Feladat leírása**: [link](https://mester.inf.elte.hu:8181/faces/leiras.xhtml?jfwid=99e6a65c6c28a998de8377a8e05d:10)
+**Feladat leírása**: [link](https://mester.inf.elte.hu:8181/faces/leiras.xhtml?jfwid=99e6a65c6c28a998de8377a8e05d:10)<br>
+
+**Így is megtalálható:** OKTV 2016/17 2. forduló
 
 
 # Készítette
