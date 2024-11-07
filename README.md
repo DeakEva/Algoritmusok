@@ -93,29 +93,49 @@ Kimenet:
 - 5
 - Magyarázat: amennyiben t<sub>1</sub> = 0 és t<sub>2</sub> = 1, akkor a módosított **Fibonacci** sorozat a következő(k) szerint alakul: {0, 1, 1, 2, 5, 27, ...} az N-edik helyen lévő érték, így az **5** lesz
 
-### [4. feladat - Dijkstra]
-Feladat leírása: Adott egy irányíthatatlan gráf és egy kezdő csomópont, határozza meg a kezdő csomóponttól a gráf összes többi csomópontjáig vezető legrövidebb utak hosszát. Ha egy csomópont nem érhető el, a távolsága -1. A csomópont számozása folyamatosan történik 1 és n az élek távolsága vagy hosszúsága változó.
-Töltse ki a shortestReach függvényt az alábbi szerkesztőben. Olyan egész számok tömbjét kell visszaadnia, amelyek az egyes csomópontok legrövidebb távolságát jelentik a kezdő csomóponttól a csomópontszám növekvő sorrendjében.
-n: a csomópontok száma a gráfban
-élek: egész számok 2D tömbje, ahol mindegyik sarok[i] három egész számból áll, amelyek egy él kezdő és végcsomópontját jelentik, majd az él hosszát
-s: a kezdő csomópont száma
-Beviteli formátum
-Az első sor tartalmazza t a tesztesetek számát.
-Az első sor két szóközzel elválasztott egész számot tartalmaz n és m a csomópontok és élek száma a gráfban.
-Mindegyik következő m sor három szóközzel elválasztott egész számot tartalmaz x és y és r egy él kezdő és záró csomópontja, valamint az él hossza
-Minden teszteset utolsó sorában van egy egész szám s, a kiindulási helyzetet jelöli.
-Korlátozások
-1<=t<=10
-2<=n<=3000
-1<=m<=N*(N-1)/2
-1<=x,y,s<=N
-1<=r<=10<sup>5</sup>>>>>>>>>>>
-Kimeneti formátum
-Az egyes t tesztesetek nyomtasson egyetlen sort, amelyből áll n-1 szóközzel elválasztott egész számok, amelyek a legrövidebb távolságot jelölik n-1 csomópontok a kiindulási helyzetből s cimkéik növekvő sorrendjében, kivéve s.
-Az elérhetetlen csomópontok esetén nyomtasson -1
+### [4. feladat - Dijkstra](https://github.com/)
+**Feladat leírása:**<br>
+Legyen adott egy irányítatlan gráf és egy kezdő csomópont. Határozzuk meg a kezdő csomóponttól a gráf összes többi csomópontjáig vezető legrövidebb utak hosszát. Ha egy csomópont nem érhető el, akkor a távolsága legyen -1. A csomópontok számozása 1-től n-ig történik a csomópontok közötti távolságok pedig különböző hosszúak.
+
+**Kikötések**
+- 1<= t <= 100
+- 2 <= n <= 3000
+- 1 <= m <=  <sup>N*(N-1)</sup>&frasl;<sub>2</sub>
+- 0 <= x, y, s <= N
+- 1 <= r <= 10<sup>5</sup>
+- Ha ugyanazon csomópont párok között több különböző súlyú él is fut, akkor úgy kell venni, mintha több él lenne
 
 
+**Függvény működése:**<br>
+Bemenet:
+- **t**: tesztesetek száma
+- **n**: egész szám, csomópontok száma
+- **m**: egész szám, élek száma
+- **[x, y, r]**: egész számok, élekhez tartozó információ, ahol az **x** a indulási csomópont, **y** az érkezési csomópont, **d** pedig az élnek a hossza
+- **s**: indulási csomópont
 
+Kimenet:
+- **int**: egész szám, ahol a növekvő sorrendben rendezett csomópontokhoz tartozó legrövidebb út vezet, **egész** szám 
+
+**Példa bement:**
+- **t**: 1
+- **n**: 4
+- **m**: 4
+**[x, y, r]**:<br>
+1 2 24<br>
+1 4 20<br>
+3 1 3<br>
+4 3 12<br>
+- **s**: 1
+
+**Elvárt kimenet:**<br>
+- 24 3 15
+
+**Magyarázat:**
+![Kép](./Dijkstra_sample.png)
+- **1/S** csúcsponttól a **2**-es csúcspontban a legrövidebb út: **24**
+- **1/S** csúcsponttól a **3**-as csúcspontban a legrövidebb út: **3**
+- **1/S** csúcsponttól a **4**-es csúcspontban a legrövidebb út: **15**
 
 
 ### Algoritmusok és Adatszerkezetek I. - Kollokvium feladat 
